@@ -2,6 +2,12 @@
 name = "xcode-simulator-manager-rs"
 version = "0.1.0"
 edition = "2024"
+description = "Terminal UI for managing Xcode simulators (list, boot, shutdown, delete, inspect storage)."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/uxsoft/xcode-simulator-manager-rs"
+homepage = "https://github.com/uxsoft/xcode-simulator-manager-rs"
+keywords = ["xcode", "simulator", "ios", "tui", "ratatui"]
+categories = ["command-line-utilities", "development-tools"]
 
 [dependencies]
 ratatui = "0.30"
